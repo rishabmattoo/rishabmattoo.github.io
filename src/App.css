@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+body{
+  margin: 0px;
+}
+.App1{
+  
+  height: 94vh;
+  width: 94vw;
+  
+  padding: 3vh 3vw;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: #111174;
+  opacity: 0.8;
+  background-image: radial-gradient(#19f02b 0.45px, #e5e5f7 0.45px);
+  background-size: 9px 9px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.action-tab{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-evenly;
 }
 
-.App-link {
-  color: #61dafb;
+.filters { 
+  display: flex;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.action-btn{
+  padding: 8px 12px;
+   background: rgb(19, 207, 76);
+  background: linear-gradient(16deg, rgb(21, 173, 211) 0%, rgb(197 0 255) 100%);;
+  border-radius: 20px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.prize-display{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px
+} 
+
+.prize-card{
+  width: 11%;
+  padding: 1%;
+  background: rgb(14, 223, 49);
+  background: linear-gradient(160deg, rgb(24, 212, 49) 0%, rgba(222,23,23,0.79) 100%);
+  margin-bottom: 8px;  
+  border-radius: 29px;  
+}
+
+.prize-card-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-header-text{
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+}
+.App{
+  height: 94vh;
+  width: 94vw;
+  text-align: center;
+  padding: 3vh 3vw;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
