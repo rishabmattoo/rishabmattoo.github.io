@@ -17,7 +17,7 @@ function App() {
   }
 
   useEffect(() => {
-    const data = fetch('http://api.nobelprize.org/v1/prize.json')
+    const data = fetch('https://api.nobelprize.org/v1/prize.json')
       .then(response => response.json()
         .then(responseJson => {
         
